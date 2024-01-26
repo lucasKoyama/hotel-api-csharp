@@ -17,7 +17,7 @@ public class TrybeHotelContext : DbContext, ITrybeHotelContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            var connectionString = "Server=localhost;User=SA;Password=TrybeHotel12!;TrustServerCertificate=True";
+            var connectionString = "Server=localhost;User=SA;Database=TrybeHotel;Password=TrybeHotel12!;TrustServerCertificate=True";
             optionsBuilder.UseSqlServer(connectionString);
         }
     }
