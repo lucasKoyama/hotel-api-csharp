@@ -3,20 +3,20 @@
 <details>
   <summary>Summary</summary>
 
-  1. [Tools used]()
-  2. [Running Locally]()
-  3. [Endpoint HTTP Methods]()<br/>
-    3.1 [API Status - endpoint /]()<br/>
-    3.2 [Endpoint /user]()<br/>
-    3.3 [Endpoint /login]()<br/>
-    3.4 [Endpoint /city]()<br/>
-    3.5 [Endpoint /hotel]()<br/>
-    3.6 [Endpoint /room]()<br/>
-    3.7 [Endpoint /booking]()<br/>
-    3.8 [Endpoint /geo]()<br/>
-  4. [Wanna learn about C# and WebAPIs?]()
-  5. [Authors]()
-  6. [Styles for cloned repo!]()
+  1. [Tools used](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#tools-used)
+  2. [Running Locally](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#running-locally)
+  3. [Endpoint HTTP Methods](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#endpoint-http-methods)<br/>
+    3.1 [API Status - endpoint /](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#api-status)<br/>
+    3.2 [Endpoint /user](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#endpoint-user)<br/>
+    3.3 [Endpoint /login](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#endpoint-login)<br/>
+    3.4 [Endpoint /city](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#endpoint-city)<br/>
+    3.5 [Endpoint /hotel](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#endpoint-hotel)<br/>
+    3.6 [Endpoint /room](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#endpoint-room)<br/>
+    3.7 [Endpoint /booking](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#endpoint-booking)<br/>
+    3.8 [Endpoint /geo](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#endpoint-geo)<br/>
+  4. [Wanna learn about C# and WebAPIs?](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#wanna-learn-about-c-and-webapis)
+  5. [Authors](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#authors)
+  6. [Styles for cloned repo!](https://github.com/lucasKoyama/hotel-api-csharp/tree/main?tab=readme-ov-file#styles-for-cloned-repo)
 </details>
 
 This project is an API to manage and use a network of hotels. It has user creation, login with authentication, and the creation of cities, hotels, rooms and bookings in the database. To create hotels and rooms, the user must be admin (admin authorization). It also has a geo-localization feature to measure the user's location distance to the registered hotels!
@@ -320,7 +320,7 @@ Get All Rooms of a specified Hotel
 ```json
 [
   {
-  	"RoomId": 1,
+    "RoomId": 1,
     "Name": "Suite básica",
     "Capacity": 2,
     "Image": "image suite",
