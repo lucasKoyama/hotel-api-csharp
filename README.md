@@ -54,9 +54,9 @@ This project is an API to manage and use a network of hotels. It has user creati
 
 ```json
 {
-	"Name":"John Doe",
-	"Email": "Johndoe@gmail.com",
-	"Password": "123456"
+  "Name":"John Doe",
+  "Email": "Johndoe@gmail.com",
+  "Password": "123456"
 }
 ```
 </details>
@@ -116,8 +116,8 @@ When there is no admin user
 
 ```json
 {
-	"Email": "Johndoe@gmail.com",
-	"Password": "123456"
+  "Email": "Johndoe@gmail.com",
+  "Password": "123456"
 }
 ```
 </details>
@@ -278,10 +278,10 @@ Get All Hotels
 
 ```json
 {
-	"Name":"Suite básica",
-	"Capacity":2,
-	"Image":"image suite",
-	"HotelId": 1
+  "Name":"Suite básica",
+  "Capacity":2,
+  "Image":"image suite",
+  "HotelId": 1
 }
 ```
 </details>
@@ -358,10 +358,10 @@ When there is no admin user
 
 ```json
 {
-	"CheckIn":"2030-08-27",
-	"CheckOut":"2030-08-28",
-	"GuestQuant":"1",
-	"RoomId":1
+  "CheckIn":"2030-08-27",
+  "CheckOut":"2030-08-28",
+  "GuestQuant":"1",
+  "RoomId":1
 }
 ```
 </details>
@@ -420,11 +420,11 @@ When there is no user logged in.
 
 ```json
 {
-	"BookingId": 1002,
-	"CheckIn": "2023-08-27T00:00:00",
-	"CheckOut": "2023-08-28T00:00:00",
-	"GuestQuant": 1,
-	"Room": {
+  "BookingId": 1002,
+  "CheckIn": "2023-08-27T00:00:00",
+  "CheckOut": "2023-08-28T00:00:00",
+  "GuestQuant": 1,
+  "Room": {
     "RoomId": 1,
     "Name": "Suite básica",
     "Capacity": 2,
