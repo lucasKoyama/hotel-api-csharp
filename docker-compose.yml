@@ -1,8 +1,13 @@
 version: '3'
 services:
+  hotelapi:
+    container_name: hotelapi
+    build: ./src/TrybeHotel
+    ports:
+      - 5501:5501
   db:
     image: mcr.microsoft.com/azure-sql-edge:latest
-    container_name: trybe_hotel_db_fase_d
+    container_name: database
     ports:
         - 1433:1433
     environment:
