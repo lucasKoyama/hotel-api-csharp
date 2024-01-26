@@ -4,14 +4,13 @@ services:
     image: mcr.microsoft.com/azure-sql-edge:latest
     volumes:
       - ./data:/initdb
-    container_name: database
+    container_name: hotel-database-1
     ports:
         - 1433:1433
     environment:
       - ACCEPT_EULA=Y
       - MSSQL_SA_PASSWORD=TrybeHotel12!
       - MSSQL_PID=Developer
-    command: bash -c '/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P TrybeHotel12! -d master -i initdb/initial.sql; echo "All done!";'
   trybehotel:
     container_name: trybehotel
     build: ./src/TrybeHotel
