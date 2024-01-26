@@ -28,10 +28,11 @@ This project is an API to manage and use a network of hotels. It has user creati
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 # Running Locally
-- Clone this repository: `git clone https://github.com/lucasKoyama/hotel-api-csharp.git`
-- Go to project folder: `cd hotel-api-csharp`
-- Inside project folders run docker: `docker-compose up -d --build`
-- Make an http request to check API status `http://localhost:5501/`
+1. Clone this repository: `git clone https://github.com/lucasKoyama/hotel-api-csharp.git`
+2. Go to project folder: `cd hotel-api-csharp`
+3. Inside project folders run docker: `docker-compose up -d --build`
+4. run the script `init.sh` it will wait until the database is up to run a migration script
+5. Make an http request to check API status `http://localhost:5501/`
 
 # Endpoint HTTP Methods
 
